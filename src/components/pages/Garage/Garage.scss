@@ -1,0 +1,77 @@
+.nav {
+  margin: 10px 0 30px 0;
+}
+
+.header {
+  margin-bottom: 30px;
+
+  .create {
+    margin-bottom: 10px;
+  }
+}
+
+.race {
+  margin: 15px 0;
+}
+
+
+.page__wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+  span {
+    margin-bottom: 10px;
+  }
+}
+
+.page__count {
+  padding: 10px;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+.page__current {
+  border: 2px solid orange;
+  font-weight: bold;
+}
+
+@keyframes moveAcross {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 92%;
+  }
+}
+
+.thing {
+  //width: 300px;
+  //position: absolute;
+  //top: 0;
+  //left: 0;
+
+  //animation: moveAcross 10s linear 1;
+  animation-fill-mode: forwards;
+}
+
+.car-svg {
+  margin-left: 5px;
+  margin-bottom: 25px;
+  padding-bottom: 50px;
+  border-bottom: 1px dashed yellow;
+
+
+  svg {
+    position: absolute;
+    padding: 0;
+  }
+
+  .finish {
+    position: absolute;
+    left: 90%;
+    height: 50px;
+    width: 1px;
+    border: 1px solid red;
+  }
+}

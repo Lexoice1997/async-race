@@ -1,0 +1,19 @@
+.car_list-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  background: cornflowerblue;
+  text-align: center;
+
+  width: 40%;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.car_list {
+  background: black;
+}
+
+.clicks {
+  cursor: pointer;
+}
