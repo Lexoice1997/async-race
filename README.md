@@ -1,4 +1,4 @@
-для того, чтобы начать игру https://adzinetskatsiaryna.github.io/asinc-race/#/:
+для того, чтобы начать игру http://async-race-lex.surge.sh
 
 Use node 14.x or higher.
 
